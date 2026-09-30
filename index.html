@@ -144,9 +144,9 @@ footer{padding-bottom:110px}
 
 <section id="about" class="rv">
   <h2>About</h2>
-  <p class="lead">Business systems, with a creative and digital streak.</p>
+  <p class="lead">Curious, creative and passionate about technology and business system. </p>
   <div class="about">
-    <div class="box"><h3>How I work</h3><p>I start by understanding how people actually work, then configure, test and explain the solution in plain language.</p><p>My IT support years taught me troubleshooting. Marketing taught me to think about the audience. HTML, which I taught myself, lets me tweak web content directly.</p></div>
+    <div class="box"><h3>How I work</h3><p>I enjoy learning new things, exploring ideas, and turning challenges into practical solutions.</p><p>My IT support years taught me troubleshooting. Marketing taught me to think about the audience. HTML, which I taught myself, lets me tweak web content directly.</p></div>
     <div class="box"><h3>Skills</h3><div class="chips" id="sk"></div></div>
     <div class="box"><h3>Education</h3><p><b>MSc, Business Information Systems</b><br>Kristiania University College, 2023–2025</p><p><b>Bachelor, Business Management</b><br>University of Greenwich</p><p><b>Diploma, Business Administration</b><br>SEGI College</p><p>English · Chinese · Malay · Norwegian · Japanese</p></div>
   </div>
@@ -171,12 +171,12 @@ var RM=matchMedia('(prefers-reduced-motion:reduce)').matches;
 var lines=["Configuring Business Central @Enora","Microsoft MB-800 certified","Previously @BDO Oslo","MSc in Business Information Systems"],li=0,st=document.getElementById('st');
 function say(){st.textContent=lines[li];st.style.animation='none';void st.offsetWidth;st.style.animation='';li=(li+1)%lines.length}
 say();if(!RM)setInterval(say,2800);
-var sk=["Business Central","Finance & VAT","Power Apps","Power Platform","Extensions","Requirements analysis","Process analysis","Testing","Troubleshooting","Integrations","User support","HTML (self-taught)","Web editing","Branding","SEO","Analytics","Social media"];
+var sk=["Business Central","Vibe Coding","Power Apps","Power Platform","Extensions","Requirements analysis","Process analysis","Testing","Troubleshooting","Integrations","User support","HTML (self-taught)","Web editing","Branding","SEO","Analytics","Social media"];
 document.getElementById('sk').innerHTML=sk.map(function(s){return'<span>'+s+'</span>'}).join('');
-var m=["Dynamics 365","Requirements","Finance & VAT","Power Apps","Testing","Branding","User support","Integrations","Analytics","HTML"];
+var m=["Dynamics 365","Requirements","Vibe Coding","Power Apps","Testing","Branding","User support","Integrations","Analytics","HTML"];
 var mh=m.map(function(s){return'<span>'+s+' ✦</span>'}).join('');document.getElementById('mq').innerHTML=mh+mh;
 var jobs=[
-{t:'#c3cfff',d:'Dec 2025 – now',h:'Associate ERP Consultant',c:'Enora',g:['ERP','Business Central','Power Apps'],w:'Finance setup, extensions, user support',l:['Implement and configure Dynamics 365 Business Central, incl. chart of accounts and VAT.','Translate business requirements into system solutions and workflows.','Assist with BC apps/extensions and Power Platform / Power Apps.','Test, troubleshoot and support users; explain solutions in plain language.','Support integrations. Run social media and digital communication for the department.']},
+{t:'#c3cfff',d:'Dec 2025 – now',h:'Associate ERP Consultant',c:'Enora',g:['ERP','Business Central','Power Apps'],w:'Finance setup, extensions, user support',l:['Implement and configure Dynamics 365 Business Central, incl. chart of.','Translate business requirements into system solutions and workflows.','Assist with BC apps/extensions and Power Platform ','Test, troubleshoot and support users; explain solutions in plain language.','Support integrations. Run social activities for the department.']},
 {t:'#bfeee0',d:'Aug – Dec 2025',h:'Associate ERP Consultant',c:'BDO Oslo',g:['ERP','Finance','Testing'],w:'Implementation, testing, integrations',l:['Analysed business processes and requirements for BC implementations.','Configured finance workflows and tested solutions.','Supported integrations with business applications and gave hands-on user support.']},
 {t:'#ffe28a',d:'Jul 2023 – Mar 2024',h:'Digital Marketing Lead',c:'Japancars (contract)',g:['Strategy','B2C','Social'],w:'B2C strategy with design &amp; sales',l:['Worked with design and sales teams to strengthen the brand.','Developed B2C marketing strategies and optimised campaigns using market data.','Created content and marketing material across digital and social channels.']},
 {t:'#ffc9b8',d:'Jul 2022 – now',h:'Freelance Digital Marketing',c:'Self-employed',g:['Content','SEO','Analytics'],w:'25+ brands · +32% traffic',l:['Content and digital campaigns for 25+ companies, incl. Daniel Wellington, Taobao, SK-II, Tourism of Johor.','Website traffic up to +32%, Facebook visits +25%, Instagram engagement +15%.']},
