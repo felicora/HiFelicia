@@ -168,7 +168,7 @@ footer{padding-bottom:110px}
 <script>
 (function(){
 var RM=matchMedia('(prefers-reduced-motion:reduce)').matches;
-var lines=["Configuring Business Central @Enora","Microsoft MB-800 certified","Previously @BDO Oslo","MSc in Business Information Systems"],li=0,st=document.getElementById('st');
+var lines=["Configuring Business Central @Enora","Microsoft MB-800 certified","MSc in Business Information Systems"],li=0,st=document.getElementById('st');
 function say(){st.textContent=lines[li];st.style.animation='none';void st.offsetWidth;st.style.animation='';li=(li+1)%lines.length}
 say();if(!RM)setInterval(say,2800);
 var sk=["Business Central","Vibe Coding","Power Apps","Power Platform","Extensions","Requirements analysis","Process analysis","Testing","Troubleshooting","Integrations","User support","HTML (self-taught)","Web editing","Branding","SEO","Analytics","Social media"];
