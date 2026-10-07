@@ -2,7 +2,7 @@
    Include once, just before </body>:  <script src="vibe-sakuracat.js"></script>
    Needs these files next to index.html:  videos/sakuracat.mp4  videos/sakuracat-poster.jpg */
 (function(){
-var NAME='sakuracat',URL='https://sakuracat.vercel.app/',COLOR='#e58fb0',
+var NAME='sakuracat',URL='https://catpybara.vercel.app/',COLOR='#e58fb0',
 VIDEO='videos/sakuracat.mp4',POSTER='videos/sakuracat-poster.jpg',
 DESC='A cozy desktop-style web app with a cat and a capybara, a music player, polaroids, a clock and a dock of mini apps.';
 var grid=document.getElementById('grid'),pv=document.getElementById('pv');
